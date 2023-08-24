@@ -1,0 +1,27 @@
+{
+    "name": "jeka34volg/new-project",
+    "description": "new-project",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Jeka34volg\\NewProject\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Евгений Кадыков",
+            "email": "jeka34volg@maail.ru"
+        }
+    ],
+    "require": {
+        "slim/slim": "^4.12",
+        "slim/psr7": "^1.6",
+        "httpsoft/http-message": "^1.1",
+        "httpsoft/http-server-request": "^1.1",
+        "nyholm/psr7": "^1.8",
+        "nyholm/psr7-server": "^1.0",
+        "guzzlehttp/psr7": "^2.6",
+        "laminas/laminas-diactoros": "^3.1",
+        "slim/php-view": "^3.2"
+    }
+}
